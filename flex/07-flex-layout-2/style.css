@@ -26,3 +26,57 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+/* My Changes */
+
+/*  */
+body{
+  display: flex;
+  flex-direction: column;
+}
+/* Styling for header */
+.header{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+/* Stying for side bar */
+li{
+  list-style: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar{
+  display: flex;
+  height: 100vw;
+  font-size: 25px;
+}
+
+ul{
+  padding: 0;
+  margin:0;
+  margin-left: 10px;
+}
+li{
+  padding: 10px;
+}
+/* Stying for cards */
+.card{
+  display: flex;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  flex:1;
+  
+}
+.float-container{
+  display: flex;
+}
