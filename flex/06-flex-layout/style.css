@@ -60,3 +60,14 @@ a{
   justify-content: space-between;
   padding:20px;
 }
+
+button{
+  font-weight: 500;
+  background-color: lightgray;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.footer{
+  background: lightgray;
+}
