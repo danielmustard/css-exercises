@@ -24,3 +24,19 @@ img {
   justify-content: center;
   background: #eee;
 }
+/* My Changes */
+
+.title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.parentContainer{
+  display:flex;
+}
+.child{
+  text-align: center;
+  gap:40px;
+  margin:auto;
+  max-width: 200px;
+}

@@ -68,7 +68,7 @@ button.cancel {
 /* SOLUTION: */
 
 .modal {
-  display: flex;
+  /* display: flex; */
   gap: 16px;
   padding: 16px;
 }
@@ -76,11 +76,13 @@ button.cancel {
 .icon {
   /* this keeps the icon from getting smashed by the text */
   flex-shrink: 0;
+  align-self: flex-start;
 }
 
 .header {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: space-between;
   font-size: 18px;
   font-weight: 700;
