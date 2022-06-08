@@ -56,8 +56,6 @@ a{
   display: flex;
   flex-shrink: 0;
   font-size: 25px;
-  flex: 1;
-  width: 300px;
 }
 
 ul{
@@ -89,4 +87,12 @@ li{
 }
 .float-container{
   display: flex;
+  flex:1;
+}
+/* Style for Footer */
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
