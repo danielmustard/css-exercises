@@ -54,8 +54,10 @@ a{
 
 .sidebar{
   display: flex;
-  height: 100vw;
+  flex-shrink: 0;
   font-size: 25px;
+  flex: 1;
+  width: 300px;
 }
 
 ul{
@@ -67,15 +69,23 @@ li{
   padding: 10px;
 }
 /* Stying for cards */
-.card{
+.container {
+  padding: 32px;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+  gap:98px;
+  justify-content: space-between;
+  flex-direction: row;
 }
-.container{
-  display: flex;
-  flex-wrap: nowrap;
-  flex:1;
-  
+
+.card {
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+.break{
+  width: 100%;
 }
 .float-container{
   display: flex;
